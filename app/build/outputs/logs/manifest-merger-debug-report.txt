@@ -1,0 +1,93 @@
+-- Merging decision tree log ---
+manifest
+ADDED from V:\xampp\htdocs\AdmWeatherAndroidStudio\app\src\main\AndroidManifest.xml:1:1-30:12
+	package
+		ADDED from V:\xampp\htdocs\AdmWeatherAndroidStudio\app\src\main\AndroidManifest.xml:3:5-43
+		INJECTED from V:\xampp\htdocs\AdmWeatherAndroidStudio\app\src\main\AndroidManifest.xml
+		INJECTED from V:\xampp\htdocs\AdmWeatherAndroidStudio\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from V:\xampp\htdocs\AdmWeatherAndroidStudio\app\src\main\AndroidManifest.xml:2:5-51
+	xmlns:android
+		ADDED from V:\xampp\htdocs\AdmWeatherAndroidStudio\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from V:\xampp\htdocs\AdmWeatherAndroidStudio\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from V:\xampp\htdocs\AdmWeatherAndroidStudio\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from V:\xampp\htdocs\AdmWeatherAndroidStudio\app\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from V:\xampp\htdocs\AdmWeatherAndroidStudio\app\src\main\AndroidManifest.xml:6:22-76
+uses-sdk
+ADDED from V:\xampp\htdocs\AdmWeatherAndroidStudio\app\src\main\AndroidManifest.xml:8:5-15:37
+MERGED from [com.android.support:appcompat-v7:24.2.0] V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-vector-drawable:24.2.0] V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-compat:24.2.0] V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.2.0] V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-compat:24.2.0] V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-v4:24.2.0] V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-compat:24.2.0] V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:24.2.0] V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:24.2.0] V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:24.2.0] V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:24.2.0] V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:24.2.0] V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.0] V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-fragment:24.2.0] V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-compat:24.2.0] V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:24.2.0] V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:24.2.0] V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:24.2.0] V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:24.2.0] V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:24.2.0] V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.0] V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from V:\xampp\htdocs\AdmWeatherAndroidStudio\app\src\main\AndroidManifest.xml:8:5-15:37
+application
+ADDED from V:\xampp\htdocs\AdmWeatherAndroidStudio\app\src\main\AndroidManifest.xml:17:5-28:19
+MERGED from [com.android.support:appcompat-v7:24.2.0] V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.0] V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-compat:24.2.0] V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.0] V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-compat:24.2.0] V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.2.0] V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.0] V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.0] V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.0] V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.0] V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.0] V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.0] V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.0] V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from V:\xampp\htdocs\AdmWeatherAndroidStudio\app\src\main\AndroidManifest.xml:17:45-77
+	android:allowBackup
+		ADDED from V:\xampp\htdocs\AdmWeatherAndroidStudio\app\src\main\AndroidManifest.xml:17:18-44
+	android:icon
+		ADDED from V:\xampp\htdocs\AdmWeatherAndroidStudio\app\src\main\AndroidManifest.xml:18:9-43
+	android:theme
+		ADDED from V:\xampp\htdocs\AdmWeatherAndroidStudio\app\src\main\AndroidManifest.xml:18:44-75
+receiver#com.arquerosdemadrid.weather.AdmWeatherProvider
+ADDED from V:\xampp\htdocs\AdmWeatherAndroidStudio\app\src\main\AndroidManifest.xml:20:9-26:20
+	android:name
+		ADDED from V:\xampp\htdocs\AdmWeatherAndroidStudio\app\src\main\AndroidManifest.xml:20:19-52
+intent-filter#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from V:\xampp\htdocs\AdmWeatherAndroidStudio\app\src\main\AndroidManifest.xml:21:13-23:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from V:\xampp\htdocs\AdmWeatherAndroidStudio\app\src\main\AndroidManifest.xml:22:17-84
+	android:name
+		ADDED from V:\xampp\htdocs\AdmWeatherAndroidStudio\app\src\main\AndroidManifest.xml:22:25-81
+meta-data#android.appwidget.provider
+ADDED from V:\xampp\htdocs\AdmWeatherAndroidStudio\app\src\main\AndroidManifest.xml:24:13-25:60
+	android:resource
+		ADDED from V:\xampp\htdocs\AdmWeatherAndroidStudio\app\src\main\AndroidManifest.xml:25:17-57
+	android:name
+		ADDED from V:\xampp\htdocs\AdmWeatherAndroidStudio\app\src\main\AndroidManifest.xml:24:24-65

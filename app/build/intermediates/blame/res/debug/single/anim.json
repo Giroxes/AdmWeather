@@ -1,9 +1,5 @@
 [
     {
-        "merged": "V:\\xampp\\htdocs\\AdmWeatherAndroidStudio\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
-        "source": "V:\\xampp\\htdocs\\AdmWeatherAndroidStudio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\anim\\abc_slide_out_bottom.xml"
-    },
-    {
         "merged": "V:\\xampp\\htdocs\\AdmWeatherAndroidStudio\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
         "source": "V:\\xampp\\htdocs\\AdmWeatherAndroidStudio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
@@ -16,16 +12,12 @@
         "source": "V:\\xampp\\htdocs\\AdmWeatherAndroidStudio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\anim\\abc_popup_enter.xml"
     },
     {
-        "merged": "V:\\xampp\\htdocs\\AdmWeatherAndroidStudio\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
-        "source": "V:\\xampp\\htdocs\\AdmWeatherAndroidStudio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\anim\\abc_fade_in.xml"
-    },
-    {
-        "merged": "V:\\xampp\\htdocs\\AdmWeatherAndroidStudio\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "V:\\xampp\\htdocs\\AdmWeatherAndroidStudio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
-    },
-    {
         "merged": "V:\\xampp\\htdocs\\AdmWeatherAndroidStudio\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
         "source": "V:\\xampp\\htdocs\\AdmWeatherAndroidStudio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "V:\\xampp\\htdocs\\AdmWeatherAndroidStudio\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "V:\\xampp\\htdocs\\AdmWeatherAndroidStudio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
         "merged": "V:\\xampp\\htdocs\\AdmWeatherAndroidStudio\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
@@ -38,5 +30,13 @@
     {
         "merged": "V:\\xampp\\htdocs\\AdmWeatherAndroidStudio\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
         "source": "V:\\xampp\\htdocs\\AdmWeatherAndroidStudio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "V:\\xampp\\htdocs\\AdmWeatherAndroidStudio\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "V:\\xampp\\htdocs\\AdmWeatherAndroidStudio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "V:\\xampp\\htdocs\\AdmWeatherAndroidStudio\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "V:\\xampp\\htdocs\\AdmWeatherAndroidStudio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\anim\\abc_fade_in.xml"
     }
 ]

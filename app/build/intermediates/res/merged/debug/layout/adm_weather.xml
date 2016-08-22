@@ -1,41 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal"
-    android:layout_width="250dp"
+    android:layout_width="fill_parent"
     android:layout_height="40dp"
-    android:padding="@dimen/widget_margin"
-    android:background="#55000000">
+    android:background="@android:drawable/screen_background_dark_transparent">
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:src="@drawable/aa"/>
+        android:src="@mipmap/ic_launcher"
+        android:layout_gravity="center" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textTemperature"
         android:layout_width="0dp"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="000"
+        android:text="0%"
         android:textSize="@dimen/abc_text_size_large_material"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp" />
 
     <TextView
-        android:id="@+id/textTest"
+        android:id="@+id/textHumidity"
         android:layout_width="0dp"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="asdf"
+        android:text="0ºC"
         android:textSize="@dimen/abc_text_size_large_material"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" />
 
-    <Button
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No"
+        android:id="@+id/textRain"
+        android:textStyle="bold"
+        android:textSize="@dimen/abc_text_size_large_material"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" />
+
+    <ImageButton
         android:id="@+id/actionButton"
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:text="Refresh"/>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Actualizar"
+        android:layout_gravity="center"
+        android:src="@android:drawable/stat_notify_sync" />
 
 </LinearLayout>

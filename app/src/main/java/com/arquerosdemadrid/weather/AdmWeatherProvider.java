@@ -26,8 +26,7 @@ public class AdmWeatherProvider extends AppWidgetProvider {
             RemoteViews remoteViews = new RemoteViews(context.getPackageName(),
                     R.layout.adm_weather);           
 
-            try
-            {
+            try {
                 HttpClient httpclient = new DefaultHttpClient();
                 HttpGet httpget = new HttpGet("http://icarus.live:5000/api/status");
 
@@ -36,13 +35,22 @@ public class AdmWeatherProvider extends AppWidgetProvider {
                 if(response.getStatusLine().getStatusCode()==200){
                     String server_response = EntityUtils.toString(response.getEntity());
                     JSONArray json = new JSONArray(server_response);
-                    remoteViews.setTextViewText(R.id.textTest, json.getJSONObject(1).getString("value"));  
+
+                    for (int y = 1; y < json.length(); y++) {
+                        if (json.getJSONObject(y).getString("name").equals("temp")) {
+                            remoteViews.setTextViewText(R.id.textTemperature, json.getJSONObject(y).getString("value") + "ºC");
+                        } else if (json.getJSONObject(y).getString("name").equals("humid")) {
+                            remoteViews.setTextViewText(R.id.textHumidity, json.getJSONObject(y).getString("value") + "%");
+                        } else if (json.getJSONObject(y).getString("name").equals("rain")) {
+                            remoteViews.setTextViewText(R.id.textRain, json.getJSONObject(y).getString("value"));
+                        }
+                    }
+
                 } else {
-                    remoteViews.setTextViewText(R.id.textTest, "error");
+                    //remoteViews.setTextViewText(R.id.textTest, "error");
                 }
-            } catch (Exception e)
-            {
-                remoteViews.setTextViewText(R.id.textTest, "ERROR");
+            } catch (Exception e) {
+                //remoteViews.setTextViewText(R.id.textTest, "ERROR");
             }
                         
             Intent intent = new Intent(context, AdmWeatherProvider.class);
