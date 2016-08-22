@@ -4,6 +4,10 @@
         "source": "V:\\xampp\\htdocs\\AdmWeatherAndroidStudio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_ic_ab_back_material.xml"
     },
     {
+        "merged": "V:\\xampp\\htdocs\\AdmWeatherAndroidStudio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\gradient.xml",
+        "source": "V:\\xampp\\htdocs\\AdmWeatherAndroidStudio\\app\\src\\main\\res\\drawable\\gradient.xml"
+    },
+    {
         "merged": "V:\\xampp\\htdocs\\AdmWeatherAndroidStudio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
         "source": "V:\\xampp\\htdocs\\AdmWeatherAndroidStudio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
@@ -18,6 +22,10 @@
     {
         "merged": "V:\\xampp\\htdocs\\AdmWeatherAndroidStudio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
         "source": "V:\\xampp\\htdocs\\AdmWeatherAndroidStudio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "V:\\xampp\\htdocs\\AdmWeatherAndroidStudio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\humidity.png",
+        "source": "V:\\xampp\\htdocs\\AdmWeatherAndroidStudio\\app\\src\\main\\res\\drawable\\humidity.png"
     },
     {
         "merged": "V:\\xampp\\htdocs\\AdmWeatherAndroidStudio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
@@ -38,6 +46,10 @@
     {
         "merged": "V:\\xampp\\htdocs\\AdmWeatherAndroidStudio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
         "source": "V:\\xampp\\htdocs\\AdmWeatherAndroidStudio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "V:\\xampp\\htdocs\\AdmWeatherAndroidStudio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rain.png",
+        "source": "V:\\xampp\\htdocs\\AdmWeatherAndroidStudio\\app\\src\\main\\res\\drawable\\rain.png"
     },
     {
         "merged": "V:\\xampp\\htdocs\\AdmWeatherAndroidStudio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
@@ -82,6 +94,10 @@
     {
         "merged": "V:\\xampp\\htdocs\\AdmWeatherAndroidStudio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
         "source": "V:\\xampp\\htdocs\\AdmWeatherAndroidStudio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "V:\\xampp\\htdocs\\AdmWeatherAndroidStudio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\temp.png",
+        "source": "V:\\xampp\\htdocs\\AdmWeatherAndroidStudio\\app\\src\\main\\res\\drawable\\temp.png"
     },
     {
         "merged": "V:\\xampp\\htdocs\\AdmWeatherAndroidStudio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",

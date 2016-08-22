@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ADM Weather</string>
+    <string name="rain_status_null">No</string>
+    <string name="rain_status_weak">Weak</string>
+    <string name="rain_status_normal">Normal</string>
+    <string name="rain_status_strong">Strong</string>
 </resources>

@@ -226,6 +226,10 @@
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="app_name">ADM Weather</string>
+    <string name="rain_status_normal">Normal</string>
+    <string name="rain_status_null">No</string>
+    <string name="rain_status_strong">Strong</string>
+    <string name="rain_status_weak">Weak</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>

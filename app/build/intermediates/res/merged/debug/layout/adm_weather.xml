@@ -2,58 +2,96 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal"
     android:layout_width="fill_parent"
-    android:layout_height="40dp"
-    android:background="@android:drawable/screen_background_dark_transparent">
+    android:layout_height="80dp"
+    android:background="#d60000e0"
+    android:weightSum="1">
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="0dp"
+        android:layout_width="84dp"
         android:layout_height="match_parent"
-        android:layout_weight="1"
+        android:id="@+id/imageLogo"
         android:src="@mipmap/ic_launcher"
-        android:layout_gravity="center" />
+        android:contentDescription="ADM Logo"
+        android:tint="#ffffff" />
 
-    <TextView
-        android:id="@+id/textTemperature"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="0%"
-        android:textSize="@dimen/abc_text_size_large_material"
-        android:textStyle="bold"
-        android:layout_gravity="center"
-        android:layout_marginRight="5dp"
-        android:layout_marginLeft="5dp" />
+    <RelativeLayout
+        android:layout_width="237dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.94">
 
-    <TextView
-        android:id="@+id/textHumidity"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="0ºC"
-        android:textSize="@dimen/abc_text_size_large_material"
-        android:textStyle="bold"
-        android:layout_gravity="center"
-        android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageTemperature"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/temp"
+            android:layout_above="@+id/textTemperature"
+            android:layout_alignRight="@+id/textTemperature"
+            android:tint="#ffffff" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="No"
-        android:id="@+id/textRain"
-        android:textStyle="bold"
-        android:textSize="@dimen/abc_text_size_large_material"
-        android:layout_gravity="center"
-        android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp" />
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:id="@+id/imageHumidity"
+            android:src="@drawable/humidity"
+            android:tint="#ffffff"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imageTemperature"
+            android:layout_alignBottom="@+id/imageTemperature"
+            android:layout_alignRight="@+id/textHumidity" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageRain"
+            android:src="@drawable/rain"
+            android:layout_above="@+id/textHumidity"
+            android:layout_alignLeft="@+id/textRain"
+            android:tint="#ffffff" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="-88.8ºC"
+            android:id="@+id/textTemperature"
+            android:layout_alignParentBottom="true"
+            android:textStyle="bold"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="100.0%"
+            android:id="@+id/textHumidity"
+            android:textStyle="bold"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:layout_below="@+id/imageHumidity"
+            android:layout_toRightOf="@+id/imageTemperature"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Strong"
+            android:id="@+id/textRain"
+            android:textStyle="bold"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/textHumidity"
+            android:gravity="center_horizontal" />
+
+    </RelativeLayout>
 
     <ImageButton
-        android:id="@+id/actionButton"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Actualizar"
-        android:layout_gravity="center"
-        android:src="@android:drawable/stat_notify_sync" />
+        android:layout_height="match_parent"
+        android:id="@+id/actionButton"
+        android:src="@android:drawable/stat_notify_sync_noanim"
+        android:tint="#ffffff"
+        android:background="#00ff0000" />
 
 </LinearLayout>

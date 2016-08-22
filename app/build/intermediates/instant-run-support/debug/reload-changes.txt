@@ -1,2 +1,0 @@
-CHANGED,V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\arquerosdemadrid\weather\AdmWeatherProvider$override.class
-CHANGED,V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class

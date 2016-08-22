@@ -1,3 +1,180 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.0_d82bf19ab27fca226688b15eb6ab6112349ffe01.jar" />
+    </item>
+    <item
+        jar="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_c44ce0fb9d866838576be73ba4ddd6201744486c.jar" />
+    </item>
+    <item
+        jar="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\libs\httpclient-win-4.5.2.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="80635f3fdebcb3687ca3246214e597916504b996">
+        <dex dex="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\pre-dexed\debug\httpclient-win-4.5.2_c4fc388f3a7fc3c9de7d447eb5b6a32db50b0566.jar" />
+    </item>
+    <item
+        jar="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\libs\fluent-hc-4.5.2.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="7bfdfa49de6d720ad3c8cedb6a5238eec564dfed">
+        <dex dex="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\pre-dexed\debug\fluent-hc-4.5.2_0263b2f4fc7a55fc6abed753f4a1ef4fba5fa76f.jar" />
+    </item>
+    <item
+        jar="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\libs\httpcore-4.4.4.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="b31526a230871fbe285fbcbe2813f9c0839ae9b0">
+        <dex dex="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\pre-dexed\debug\httpcore-4.4.4_6f48eae7a2fbe490fdb8dcea51aef49c14d26ece.jar" />
+    </item>
+    <item
+        jar="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\libs\httpmime-4.5.2.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="22b4c53dd9b6761024258de8f9240c3dce6ea368">
+        <dex dex="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\pre-dexed\debug\httpmime-4.5.2_caccd83bc1ef4e557813614d2b67c84cef8dd0a3.jar" />
+    </item>
+    <item
+        jar="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.0_9d7238c866e44422d530b4978a0bdbaa4223f22b.jar" />
+    </item>
+    <item
+        jar="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_42b288587cb793f6e689875f6888e5183c7fdfea.jar" />
+    </item>
+    <item
+        jar="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.0_dcfb7a27dffb75a7cbe7d3c338e7f99254b7e543.jar" />
+    </item>
+    <item
+        jar="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.0_c70c75d51fae691dd174912a3a13c179c63d8d41.jar" />
+    </item>
+    <item
+        jar="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\libs\jna-4.1.0.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="1c12d070e602efd8021891cdd7fd18bc129372d4">
+        <dex dex="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\pre-dexed\debug\jna-4.1.0_84b67c0ebcb5765f382bf16519604970e2eb8e26.jar" />
+    </item>
+    <item
+        jar="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\libs\jna-platform-4.1.0.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="23457ad1cf75c2c16763330de5565a0e67b4bc0a">
+        <dex dex="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\pre-dexed\debug\jna-platform-4.1.0_b4315963b6901fcb0687a57077ee6b00a394f630.jar" />
+    </item>
+    <item
+        jar="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\libs\httpclient-cache-4.5.2.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="bd50ea83908dbf2f387a333216e66d2f0c5079bd">
+        <dex dex="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\pre-dexed\debug\httpclient-cache-4.5.2_2d8f809ba6de771939092ac9a6694aecb160e4c0.jar" />
+    </item>
+    <item
+        jar="V:\Android\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.0_719244ca6f057d805fbccc9952a78ab88026001f.jar" />
+    </item>
+    <item
+        jar="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\libs\commons-logging-1.2.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="4bfc12adfe4842bf07b657f0369c4cb522955686">
+        <dex dex="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\pre-dexed\debug\commons-logging-1.2_f35d3ca66cf1a40ab634507d4444814d66bf8770.jar" />
+    </item>
+    <item
+        jar="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.0_779c2362f815b2ff22d8de2b0df5e1970e9da3b4.jar" />
+    </item>
+    <item
+        jar="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_44f5274dd382ecce09143460e720fcf70b0c21dc.jar" />
+    </item>
+    <item
+        jar="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\libs\httpclient-4.5.2.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="733db77aa8d9b2d68015189df76ab06304406e50">
+        <dex dex="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\pre-dexed\debug\httpclient-4.5.2_34927d57070cb3a6328dce3bc263f6a89efaeee4.jar" />
+    </item>
+    <item
+        jar="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.0_2f540137cd9d4daefb7997dd1caf6792709fd8c0.jar" />
+    </item>
+    <item
+        jar="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.0_220613ce5cee57fdca1bd856f71040247c78139c.jar" />
+    </item>
+    <item
+        jar="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.0_65835ea4fcaffbe78a0c7b27b32b6de6424d86fc.jar" />
+    </item>
+    <item
+        jar="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\libs\commons-codec-1.9.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="9ce04e34240f674bc72680f8b843b1457383161a">
+        <dex dex="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\pre-dexed\debug\commons-codec-1.9_9d6d1385167a3befcc6844c149e8796dd6f42fec.jar" />
+    </item>
+    <item
+        jar="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_d2a7ddb5cdd8cf3a02fe2691d02136a18722137b.jar" />
+    </item>
+    <item
+        jar="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.0_68f54b0e026455636be37cd4751f4df84b589977.jar" />
+    </item>
+    <item
+        jar="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_95dabbb777194234606b3a3a7bbde3f3e7d4a4cc.jar" />
+    </item>
+
+</items>

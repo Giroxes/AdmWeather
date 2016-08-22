@@ -19,6 +19,11 @@
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartir con"</string>
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Compartir con %s"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Contraer"</string>
+    <string name="app_name">ADM Weather</string>
+    <string name="rain_status_normal">Normal</string>
+    <string name="rain_status_null">No</string>
+    <string name="rain_status_strong">Fuerte</string>
+    <string name="rain_status_weak">Débil</string>
     <string msgid="146198913615257606" name="search_menu_title">"Buscar"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
 </resources>

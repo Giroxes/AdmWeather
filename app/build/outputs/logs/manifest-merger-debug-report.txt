@@ -5,10 +5,16 @@ ADDED from V:\xampp\htdocs\AdmWeatherAndroidStudio\app\src\main\AndroidManifest.
 		ADDED from V:\xampp\htdocs\AdmWeatherAndroidStudio\app\src\main\AndroidManifest.xml:3:5-43
 		INJECTED from V:\xampp\htdocs\AdmWeatherAndroidStudio\app\src\main\AndroidManifest.xml
 		INJECTED from V:\xampp\htdocs\AdmWeatherAndroidStudio\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from V:\xampp\htdocs\AdmWeatherAndroidStudio\app\src\main\AndroidManifest.xml
+		INJECTED from V:\xampp\htdocs\AdmWeatherAndroidStudio\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from V:\xampp\htdocs\AdmWeatherAndroidStudio\app\src\main\AndroidManifest.xml:2:5-51
 	xmlns:android
 		ADDED from V:\xampp\htdocs\AdmWeatherAndroidStudio\app\src\main\AndroidManifest.xml:1:11-69
+	android:versionCode
+		INJECTED from V:\xampp\htdocs\AdmWeatherAndroidStudio\app\src\main\AndroidManifest.xml
+		INJECTED from V:\xampp\htdocs\AdmWeatherAndroidStudio\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
 ADDED from V:\xampp\htdocs\AdmWeatherAndroidStudio\app\src\main\AndroidManifest.xml:5:5-67
 	android:name

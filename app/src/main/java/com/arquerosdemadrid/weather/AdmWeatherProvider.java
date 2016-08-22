@@ -27,30 +27,45 @@ public class AdmWeatherProvider extends AppWidgetProvider {
                     R.layout.adm_weather);           
 
             try {
+
                 HttpClient httpclient = new DefaultHttpClient();
                 HttpGet httpget = new HttpGet("http://icarus.live:5000/api/status");
-
-                HttpResponse response = httpclient.execute(httpget);                
+                remoteViews.setTextViewText(R.id.textRain, "3");
+                HttpResponse response = httpclient.execute(httpget);
+                remoteViews.setTextViewText(R.id.textRain, "4");
 
                 if(response.getStatusLine().getStatusCode()==200){
                     String server_response = EntityUtils.toString(response.getEntity());
                     JSONArray json = new JSONArray(server_response);
+                    remoteViews.setTextViewText(R.id.textRain, "5");
 
-                    for (int y = 1; y < json.length(); y++) {
+                    for (int y = 0; y < json.length(); y++) {
                         if (json.getJSONObject(y).getString("name").equals("temp")) {
                             remoteViews.setTextViewText(R.id.textTemperature, json.getJSONObject(y).getString("value") + "ºC");
                         } else if (json.getJSONObject(y).getString("name").equals("humid")) {
                             remoteViews.setTextViewText(R.id.textHumidity, json.getJSONObject(y).getString("value") + "%");
                         } else if (json.getJSONObject(y).getString("name").equals("rain")) {
-                            remoteViews.setTextViewText(R.id.textRain, json.getJSONObject(y).getString("value"));
+                            if (Float.valueOf(json.getJSONObject(y).getString("value")) > 600){
+                                remoteViews.setTextViewText(R.id.textRain, context.getResources().getString(R.string.rain_status_strong));
+                            } else if (Float.valueOf(json.getJSONObject(y).getString("value")) > 400){
+                                remoteViews.setTextViewText(R.id.textRain, context.getResources().getString(R.string.rain_status_normal));
+                            } else if (Float.valueOf(json.getJSONObject(y).getString("value")) > 200){
+                                remoteViews.setTextViewText(R.id.textRain, context.getResources().getString(R.string.rain_status_weak));
+                            } else {
+                                remoteViews.setTextViewText(R.id.textRain, context.getResources().getString(R.string.rain_status_null));
+                            }
                         }
                     }
 
                 } else {
-                    //remoteViews.setTextViewText(R.id.textTest, "error");
+                    remoteViews.setTextViewText(R.id.textTemperature, "---");
+                    remoteViews.setTextViewText(R.id.textHumidity, "---");
+                    remoteViews.setTextViewText(R.id.textRain, "---");
                 }
             } catch (Exception e) {
-                //remoteViews.setTextViewText(R.id.textTest, "ERROR");
+                remoteViews.setTextViewText(R.id.textTemperature, "---");
+                remoteViews.setTextViewText(R.id.textHumidity, "---");
+                remoteViews.setTextViewText(R.id.textRain, "---");
             }
                         
             Intent intent = new Intent(context, AdmWeatherProvider.class);
