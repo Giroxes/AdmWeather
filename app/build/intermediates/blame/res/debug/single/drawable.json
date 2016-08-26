@@ -92,12 +92,12 @@
         "source": "V:\\xampp\\htdocs\\AdmWeatherAndroidStudio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
-        "merged": "V:\\xampp\\htdocs\\AdmWeatherAndroidStudio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
-        "source": "V:\\xampp\\htdocs\\AdmWeatherAndroidStudio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
-    },
-    {
         "merged": "V:\\xampp\\htdocs\\AdmWeatherAndroidStudio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\temp.png",
         "source": "V:\\xampp\\htdocs\\AdmWeatherAndroidStudio\\app\\src\\main\\res\\drawable\\temp.png"
+    },
+    {
+        "merged": "V:\\xampp\\htdocs\\AdmWeatherAndroidStudio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "V:\\xampp\\htdocs\\AdmWeatherAndroidStudio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
     },
     {
         "merged": "V:\\xampp\\htdocs\\AdmWeatherAndroidStudio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",

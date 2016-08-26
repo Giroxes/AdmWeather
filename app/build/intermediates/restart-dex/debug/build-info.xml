@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="19"
+    density="tvdpi"
+    format="7"
+    timestamp="28594575595826"
+    token="8782674686983661413" >
+
+    <task
+        name="javac"
+        duration="304" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="94" />
+    <task
+        name="verifier"
+        duration="47" />
+
+    <artifact
+        location="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="28594575595826" >
+        <artifact
+            location="V:\xampp\htdocs\AdmWeatherAndroidStudio\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>
